@@ -115,7 +115,7 @@
 							<!--end::Wrapper-->
 							<!--begin::Wrapper-->
 							<div>
-								<label class="fs-6 fw-semibold mb-2">_lang{Decoded Text}</label>
+								<label class="fs-6 fw-semibold mb-2">_lang{Encoded Text}</label>
 							</div>
 							<!--end::Wrapper-->
 						</div>
@@ -1071,6 +1071,22 @@ import b64 "encoding/base64"</td>
 			</div>
 			<!--end::Body-->
 		</div>
+
+		<!-- START_SECTION keyword -->
+		<div class="card mb-10">
+			<div class="card-header align-items-center border-0 mt-4">
+				<h3 class="card-title align-items-start flex-column">
+					<span class="fw-bold mb-2 text-dark">_lang{Top Google Searches}</span>
+				</h3>
+			</div>
+
+			<div class="card-body pt-0">
+				<!-- BEGIN_LOOP keyword -->
+				<a href="[=TOOL_SLUG=].html?lang=[=CURRENT_LANGUAGE_CODE=]&keyword=[=keyword.TEXT=]" class="badge badge-light text-muted text-hover-warning m-2 ms-0">[=keyword.TEXT=]</a>
+				<!-- END_LOOP keyword -->
+			</div>
+		</div>
+		<!-- STOP_SECTION keyword -->
 	</div>
 </div>
 <script>
