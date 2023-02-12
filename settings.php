@@ -33,7 +33,7 @@ $tool_settings		:	Unchangable variable name
 ********************************/
 
 $tool_settings = [
-	'Version'     => '1.0.0',
+	'Version'     => '1.1.0',
 	'Name'        => __('Text & Base64 Decode and Encode'),
 	'Description' => __('Convert any text-based input to base64 format and vice vera: a link, a video or an image, even the remote URLs or your own uploadable files. Then give results to your friends directly with their own languages by sharable links or download to store in your private place.'),
 	'Keyword'     => __('text to base64 converter, text file to base64 javascript, text to base64 online, encode text to base64 python, image file to base64 linux, text to base64 c#, text to base64 java, text to base64 nodejs, text to base64 angular, text to base64 powershell, text to base64 java, string to base64, string to base64 swift, string to flutter, string to golang, encrypt string to base64 react'),
@@ -41,7 +41,7 @@ $tool_settings = [
 		'Name'    	=> 'PreScriptZ.com',
 		'Contact' 	=> 'https://www.prescriptz.com/',
 		'Source'	=> [
-			'GitHub'    => 'https://github.com/toolywin/tools/tree/main/text-base64-decode-encode',
+			'GitHub'    => 'https://github.com/toolywin/tool___text-base64-decode-encode',
 		],
 		'Donate'  	=> [
 			'Paypal'   => 'https://www.paypal.me/PREScriptZ',
@@ -51,5 +51,14 @@ $tool_settings = [
 		],
 	],
 	'Date'      => '2023-01-15', // created date
-	//'Changelog' => [],
+	'Changelog' => [
+		'2023-01-18'	=> [
+			'v1.1.0',
+			[
+				__('Added') => [
+					__('Top Google Searches'),
+				],
+			]
+		],
+	],
 ];
